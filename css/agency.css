@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .img-centered {
@@ -316,6 +316,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    line-height: 70px;
 }
 
 section h3.section-subheading {
@@ -641,7 +642,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -849,7 +849,7 @@ body {
 }
 
 .ted-font {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue Custom", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900;
 }
 
@@ -888,15 +888,6 @@ video#bgvid {
 
 #mce-EMAIL:focus {
     outline: 0;
-}
-
-#mc-embedded-subscribe {
-    font-size: 23px;
-    font-family: inherit;
-    color: inherit;
-    border: 0;
-    border-radius: 6px;
-    padding: 25px 30px;
 }
 
 #mc-embedded-subscribe:hover {
@@ -942,4 +933,74 @@ h2 {
 
 .trans li a:hover {
     background-color: transparent !important;
+}
+
+.white-bcg {
+    background-color: #fff;
+}
+
+.red {
+    color: #95001a;
+}
+
+a.red {
+    color: #fff;
+    background-color: #95001a;
+}
+
+a.red:hover {
+    color: #95001a;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    font-size: 23px;
+    font-family: inherit;
+    color: inherit;
+    border: 0;
+    border-radius: 6px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+a#apply {
+    border: 2px solid #95001a;
+}
+
+.white {
+    color: #fff;
+}
+
+.red-bcg {
+    background-color: #95001a;
+}
+
+
+.portraits {
+    border: 4px solid #fff;
+    border-radius: 4px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+.portraits:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+
+.popover {
+    background-color: #031b51;
+    color: white;
+    text-align: center;
+}
+
+.popover.bottom .arrow:after {
+    border-bottom-color: #031b51;
 }

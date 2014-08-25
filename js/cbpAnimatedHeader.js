@@ -11,6 +11,9 @@
 
 $( document ).ready(function() {
     $("#navbar-tabs").addClass("trans");
+    $(".portraits").popover({
+        trigger: 'hover'    
+    });
 });
 
 var cbpAnimatedHeader = (function() {
