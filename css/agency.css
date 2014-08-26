@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #fff;
 }
 
 h1,
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #042f92;
+    color: #031b51;
 }
 
 .navbar-default .navbar-collapse {
@@ -185,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #031b51;
-    background-color: ##031b51;
+    background-color: #042f92;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -204,20 +204,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fff;
-    background-color: #042f92;
+    color: #031b51;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #042f92;
+    color: #031b51;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #042f92;
+    color: #031b51;
+    background-color: #fff;
 }
 
 @media(min-width:768px) {
@@ -810,10 +810,10 @@ video#bgvid {
     max-width: 350px;
 }
 
-#mce-EMAIL {
+#mce-EMAIL, #mce-FNAME {
     background-color:rgba(255,255,255,0.5);
     border: 0;
-    border-radius: 6px;
+    border-radius: 3px;
     font-size: 29px;
     color: inherit;
     font-family: inherit;
@@ -822,7 +822,7 @@ video#bgvid {
     width: 100%;
 }
 
-#mce-EMAIL:focus {
+#mce-EMAIL:focus, #mce-FNAME:focus {
     outline: 0;
 }
 
@@ -869,6 +869,7 @@ h2 {
 
 .trans li a:hover {
     background-color: transparent !important;
+    color: #fff !important;
 }
 
 .white-bcg {
@@ -949,7 +950,7 @@ iframe {
 }
 
 .partners {
-    width: 45%;
+    width: 100%;
 }
 
 .section-heading {
@@ -972,4 +973,27 @@ footer {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #FFF;
+}
+
+h3 {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.red-link a {
+    color: #95001a;
+}
+
+#notify-bottom {
+    color: #fff;
+    border: solid 2px #fff;
+}
+
+#notify-bottom:hover {
+    color: #031b51;
+    background-color: #fff;
+    text-decoration: none;
 }
