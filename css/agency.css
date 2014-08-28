@@ -802,7 +802,11 @@ body {
 
 /* iPhone [portrait + landscape] */
 @media screen and (max-width: 480px) {
-	video#bgvid {
+	header {
+        background-image: url('main.png');
+    }
+    
+    video#bgvid {
         display: none;
     }
 }
