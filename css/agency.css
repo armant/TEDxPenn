@@ -789,26 +789,30 @@ body {
     font-weight: 900;
 }
 
+/* iPad [portrait + landscape] */
+@media screen and (max-width: 1024px) {
+	header {
+        background-image: url('main.png');
+    }
+    
+    video#bgvid {
+        display: none;
+    }
+}
+
+/* iPhone [portrait + landscape] */
+@media screen and (max-width: 480px) {
+	video#bgvid {
+        display: none;
+    }
+}
+
 video#bgvid {
     position: fixed; right: 0; bottom: 0;
     min-width: 100%; min-height: 100%;
     width: auto; height: auto; z-index: -100;
     background: url(main.png) no-repeat;
     background-size: cover;
-}
-
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	video#bgvid {
-        display: none;
-    }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-	video#bgvid {
-        display: none;
-    }
 }
 
 #logo {
