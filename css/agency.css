@@ -795,41 +795,7 @@ video#bgvid {
     width: auto; height: auto; z-index: -100;
     background: url(main.png) no-repeat;
     background-size: cover;
-}
-
-/* iPAD MEDIA QUERY */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-video#bgvid{display: none !important;z-index:-1;}
-}
-
-/* iPAD 1 & 2, iPAD MINI MEDIA QUERY */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-video#bgvid{display: none !important;z-index:-1;}
-}
-
-/* RETINA iPAD MEDIA QUERY */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-video[class="video"]{display: none !important;z-index:-1;}
-}
-
-/* iPHONE 5 MEDIA QUERY */
-@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 1){
-video#bgvid{display: none !important;z-index:-1;}
-}
-
-/* iPHONE 5S MEDIA QUERY */
-@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
-video#bgvid{display: none !important;z-index:-1;}
-}
-
-/* iPHONE 2G/3G/3GS MEDIA QUERY */
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1){
-video#bgvid{display: none !important;z-index:-1;}
-}
-
-/* iPHONE 4/4S MEDIA QUERY */
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-video#bgvid{display: none !important;z-index:-1;}
+    z-index: -1;
 }
 
 #logo {
