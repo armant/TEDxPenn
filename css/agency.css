@@ -1025,3 +1025,31 @@ h3 {
 .icons {
     width: 32px;
 }
+#ss-submit {
+    color: #fff;
+    background-color: #95001a;
+}
+
+#ss-submit:hover {
+    color: #95001a;
+    background-color: #fff;
+    border: 2px solid #95001a;
+}
+
+
+
+.ss-q-short {
+    width: 350px;
+    border: 1px solid #95001a;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 100%;
+}
+
+.ss-q-long {
+    width: 350px;
+    border-color: #95001a;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 100%;
+}
