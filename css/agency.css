@@ -7,7 +7,6 @@
 body {
     overflow-x: hidden;
     font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 23px;
 }
 
 .text-muted {
@@ -1061,4 +1060,7 @@ h3 {
     text-justify: inter-word;
     
     
+}
+#about {
+    font-size: 23px;
 }
