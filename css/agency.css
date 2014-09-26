@@ -1029,6 +1029,7 @@ h3 {
 #ss-submit {
     color: #fff;
     background-color: #95001a;
+    border: 2px solid #95001a;
 }
 
 #ss-submit:hover {
