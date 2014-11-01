@@ -1039,6 +1039,17 @@ h3 {
     border: 2px solid #95001a;
 }
 
+.red-button {
+    color: #fff;
+    background-color: #95001a;
+    border: 2px solid #95001a;
+}
+
+.red-button:hover {
+    color: #95001a;
+    background-color: #fff;
+    border: 2px solid #95001a;
+}
 .ss-q-short {
     border: 1px solid #95001a;
     border-radius: 3px;
