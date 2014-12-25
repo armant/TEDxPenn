@@ -1075,6 +1075,12 @@ h3 {
     
     
 }
+
 #about {
     font-size: 23px;
+}
+
+#fox {
+    padding-left: 10px;
+    padding-right: 10px;
 }
