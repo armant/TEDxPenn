@@ -825,6 +825,10 @@ img::-moz-selection {
     .hide-me {
         display: none !important;
     }
+    
+    #updates-div {
+        padding-bottom: 15%;
+    }
 
 }
     
