@@ -810,11 +810,6 @@ img::-moz-selection {
     video#bgvid {
         display: none;
     }
-    
-    body {
-        font-size: 10px !important;
-    }
-    
 }
     
 video#bgvid {
