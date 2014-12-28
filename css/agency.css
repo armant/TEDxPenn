@@ -799,6 +799,9 @@ img::-moz-selection {
         display: none;
     }
     
+    .hide-me {
+        attribute: hidden;
+    }
 }
 
 /* iPhone [portrait + landscape] */
@@ -809,6 +812,10 @@ img::-moz-selection {
     
     video#bgvid {
         display: none;
+    }
+    
+    .hide-me {
+        attribute: hidden;
     }
 }
     
