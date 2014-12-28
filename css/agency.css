@@ -800,7 +800,7 @@ img::-moz-selection {
     }
     
     .hide-me {
-        attribute: hidden;
+        display: none;
     }
 }
 
@@ -815,7 +815,7 @@ img::-moz-selection {
     }
     
     .hide-me {
-        attribute: hidden;
+        display: none;
     }
 }
     
