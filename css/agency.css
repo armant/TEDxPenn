@@ -799,9 +799,6 @@ img::-moz-selection {
         display: none;
     }
     
-    .hide-me {
-        display: none;
-    }
 }
 
 /* iPhone [portrait + landscape] */
