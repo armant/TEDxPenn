@@ -9,6 +9,7 @@ body {
     font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
     webkit-tap-highlight-color: #fed136;
     font-size: 14px;
+    text-size-adjust: 50%;
 }
 
 .text-muted {
@@ -791,13 +792,13 @@ img::-moz-selection {
 /* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-header {
-    background-image: url('main.png')
-}
+    header {
+        background-image: url('main.png')
+    }
     
-video#bgvid {
-    display: none;
-}
+    video#bgvid {
+        display: none;
+    }
     
 }
 
