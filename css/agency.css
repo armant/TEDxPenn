@@ -1178,8 +1178,7 @@ iframe#updates {
     border: 0;
 }
 
-.bottom-column
-{
+.bottom-column {
     float: none;
     display: table-cell;
     vertical-align: bottom;
