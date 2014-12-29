@@ -1177,3 +1177,10 @@ iframe#updates {
     position: absolute;
     border: 0;
 }
+
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
