@@ -1037,6 +1037,7 @@ h3 {
     color: #031b51;
     background-color: #fff;
     border: solid 2px #fff;
+    white-space: nowrap;
 }
 
 #notify-bottom:hover {
