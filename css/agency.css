@@ -1192,3 +1192,6 @@ iframe#updates {
     display: table-cell;
     vertical-align: bottom;
 }
+#bottom-col-div {
+    padding-bottom: 75px;
+}
