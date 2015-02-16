@@ -1195,3 +1195,21 @@ iframe#updates {
 #bottom-col-div {
     padding-bottom: 75px;
 }
+
+.ei-slider-large {
+    text-align: left;
+}
+
+.wrapper p {
+    text-align: left;
+}
+
+.speaker-url, .speaker-url:hover, .speaker-url:focus {
+    color: black;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.speaker-text {
+    font-size: 18px;
+}
