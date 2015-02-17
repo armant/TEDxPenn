@@ -837,6 +837,10 @@ img::-moz-selection {
     .show-in-mobile {
         display: inherit;
     }
+    
+    .ei-slider{
+        height: 400px;
+    }
 
 }
     
