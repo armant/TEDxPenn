@@ -1121,7 +1121,8 @@ h3 {
 }
 
 .photo-h3 {
-    font-size: 19px;
+    font-size: 17px;
+    line-height: 35px;
 }
 
 h4 {
@@ -1215,5 +1216,9 @@ iframe#updates {
 }
 
 .speaker-text {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.theme-logo {
+    width: 100%;
 }
