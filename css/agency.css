@@ -881,10 +881,6 @@ video#bgvid {
     outline: 0;
 }
 
-#mc-embedded-subscribe:hover {
-    background-color: #042f92;
-}
-
 h2 {
 	font-size: 23px;
     line-height: 40px;
@@ -1215,10 +1211,20 @@ iframe#updates {
     font-size: 14px;
 }
 
-.speaker-text {
-    font-size: 16px;
-}
-
 .theme-logo {
     width: 100%;
+}
+
+#annenberg {
+    border: 0;
+    width: 100%;
+    height: 1007px;
+}
+#notify-top:hover {
+    background-color: #042f92;
+    text-decoration: none;
+}
+
+header {
+    height: 100%;
 }
