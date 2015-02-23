@@ -993,7 +993,7 @@ a#apply {
     border-bottom-color: #031b51;
 }
 
-iframe#youtube {
+iframe.youtube {
     border: 3px solid #fff;
     width: 100%;
     position: absolute; 
@@ -1124,9 +1124,9 @@ h3 {
 h4 {
     font-size: 16px;
 }
-#youtube-div {
+.youtube-div {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 0px; 
     padding-bottom: 56%;
 }
