@@ -1232,3 +1232,7 @@ header {
 .cross-out {
     text-decoration: line-through;
 }
+a.red-url {
+    color: #95001a;
+    text-decoration: underline;
+}
