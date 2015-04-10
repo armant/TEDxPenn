@@ -24,6 +24,9 @@
     
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- FlipClock CSS -->
+    <link rel="stylesheet" href="css/flipclock.css">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
@@ -31,6 +34,7 @@
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' 
         type='text/css'>
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -107,7 +111,9 @@
                     <img id="logo" src="img/logo.png" alt="TEDxPenn logo">
                 </a><br>
                 <p class="ted-font" id="date">April 12, 10am-6pm</p>
-                <p class="ted-font" id="date">Annenberg Center</p><br><br><br><br><br><br>
+                <p class="ted-font" id="date">Annenberg Center</p><br><br>
+                <p class="ted-font" id="date">Registration ends in</p><br>
+                <div class="countdown text-center"></div><br><br><br>
                 
                 <a id="notify-top" class="page-scroll blue button" href="#register">
                     REGISTER
@@ -1502,7 +1508,9 @@ Performing with Nic are Sean Carroll and Sarah Weck, students at the New York Un
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
+    
+    <!-- FlipClock JS (countdown timer) -->
+    <script src="js/flipclock.min.js"></script>
 </body>
 
 <script>
@@ -1514,6 +1522,17 @@ Performing with Nic are Sean Carroll and Sarah Weck, students at the New York Un
 
   ga('create', 'UA-54287369-1', 'auto');
   ga('send', 'pageview');
+
+  $( document ).ready(function() {
+    var date = new Date(2015, 3, 11, 18);
+    var now = new Date();
+    var diff = (date.getTime()/1000) - (now.getTime()/1000);
+      
+    var clock = $('.countdown').FlipClock(diff,{
+        clockFace: 'DailyCounter',
+        countdown: true
+    });
+  });
 
 </script>
 
