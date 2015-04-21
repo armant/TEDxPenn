@@ -1,0 +1,21 @@
+body {
+    color: #fff;
+    font-family: Lato;
+    font-size: 19px;
+}
+
+a, a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+}

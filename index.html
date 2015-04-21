@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' 
+        type='text/css'>
+        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/2016.css" rel="stylesheet">
     </head>
     <body>
-        TEDxPenn2016 is coming soon.
+        <br>
+        <br>
+        <center>
+            <h1>TEDxPenn2016 is coming soon.</h1>
+            <br>
+            <h2>Make it happen.</h2>
+            <br>
+            <br>
+            <br>
+            <row>
+                <div class="col-xs-offset-3 col-xs-3">
+                    <a class="button" href="https://tedxpenn1.typeform.com/to/QnKfgD">Apply</a> 
+                </div>
+                <div class="col-xs-3">
+                    <a class="button" target="_blank" href="roles.pdf">Roles</a>
+                </div>
+            </row>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a target="_blank" href="http://eepurl.com/1LUxb">Subscribe for updates</a>
+            <br>
+            <a href="2015">TEDxPenn2015</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=cl3yeLffsEE&list=PLsRNoUx8w3rM6SQzz6Bx3iY-ggjrY9UUf">TEDxPenn2013</a>
+        </center>
     </body>
 </html>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+<script>
+    $(document).ready(function(){
+        var colors = ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e',
+                      '#16a085', '#27ae60', '#2980b9', '#8e44ad', '#2c3e50',
+                      '#f1c40f', '#e67e22', '#e74c3c', '#95a5a6', '#f39c12',
+                      '#d35400', '#c0392b', '#bdc3c7', '#7f8c8d'];
+        var currentColor = colors[Math.floor(Math.random() * 19)];
+        $('body').css('background-color', currentColor);
+        $('.button').css('color', currentColor);
+    });
+</script>
