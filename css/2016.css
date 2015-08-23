@@ -1,0 +1,30 @@
+body {
+    color: #fff;
+    font-family: Lato;
+    font-size: 19px;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+a, a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+    color: black;
+    text-shadow: none;
+}
+
+.button:hover {
+    color: black;
+}
