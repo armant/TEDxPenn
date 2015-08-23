@@ -1228,3 +1228,35 @@ iframe#updates {
 header {
     height: 100%;
 }
+
+.cross-out {
+    text-decoration: line-through;
+}
+a.red-url {
+    color: #95001a;
+    text-decoration: underline;
+}
+
+.flip-clock-wrapper {
+    width: auto;
+    display: inline-block;
+}
+
+.flip-clock-divider .flip-clock-label {
+    color: #fff;
+    font-family: "Helvetica Neue Custom", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #031b51;
+    color: #fff;
+}
+
+.flip-clock-dot {
+    background-color: #031b51;
+}
+#thanks {
+    font-size: 46px;
+}
